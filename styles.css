@@ -1,0 +1,246 @@
+* {
+    background-color: midnightblue;
+    color: antiquewhite;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+}
+
+/* try to change all units to vw or another dynamic or relative unit*/
+#Splash_Page {
+    background-image: url(images/tech-18050.gif);
+    height: 500px;
+    text-align: center;
+    padding-top: 20px;
+    max-width: 100%;
+    height: 50vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+}
+
+h1,
+h2,
+#Splash_Page {
+    background-color: transparent;
+
+}
+
+.school {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.dates {
+    
+    justify-content: right;
+}
+
+.topInfo {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.college {
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+    margin: 20px;
+
+
+}
+
+
+
+#Education {
+     display: flex;
+    flex-direction: column;
+    background-color: navajowhite;
+    border-radius: 15px;
+}
+
+.topInfo,
+.bottomInfo,
+.school,
+.dates {
+    background-color: transparent;
+}
+
+#Education * {
+    background-color: maroon;
+    border-radius: 15px;
+}
+
+.dates * {
+    background-color: transparent;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    background-color: maroon;
+    border-radius: 15px;
+    margin: 0;
+    max-width: 100%;
+    padding: 1vw 0 1vw 0;
+    z-index: 1000;
+
+
+}
+
+#navbar * {
+    display: flex;
+    border: 2px solid yellow;
+    width: 12vw;
+    height: 2vw;
+    justify-content: center;
+    align-items: center;
+    background-color: midnightblue;
+    border-radius: 15px;
+}
+
+#Profile {
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: navajowhite;
+    border-radius: 15px;
+    margin-top: 1vw;
+}
+
+#Profile * {
+    display: flex;
+    justify-content: center;
+    
+    border-radius: 15px;
+    background-color: maroon;
+    padding: 5px;
+
+}
+
+#Work {
+    display: flex;
+    background-color: navajowhite;
+    flex-direction: column;
+    border-radius: 15px;
+    max-width: 100%;
+
+}
+
+#Work * {
+    display: flex;
+    list-style-type: none;
+    background-color: maroon;
+    justify-content: space-between;
+    border-radius: 15px;
+    flex-direction: column;
+    text-align: center;
+    padding: .5vw;
+    margin: 2vw;
+
+
+}
+
+#Skills {
+    display: flex;
+    background-color: navajowhite;
+    flex-direction: column;
+    border-radius: 15px;
+    max-width: 100%;
+}
+
+#Skills * {
+    display: flex;
+    list-style-type: none;
+    background-color: maroon;
+    justify-content: space-between;
+    border-radius: 15px;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    margin: 2vw;
+}
+
+#Interests {
+    display: flex;
+    background-color: navajowhite;
+    flex-direction: column;
+    border-radius: 15px;
+    max-width: 100%;
+}
+
+#Interests * {
+    display: flex;
+    list-style-type: none;
+    background-color: maroon;
+    justify-content: space-between;
+    border-radius: 15px;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    margin: 2vw;
+
+}
+
+#Awards {
+    display: flex;
+    background-color: navajowhite;
+    flex-direction: column;
+    border-radius: 15px;
+    max-width: 100%;
+
+
+}
+
+#Awards * {
+    display: flex;
+    list-style-type: none;
+    background-color: maroon;
+    justify-content: space-between;
+    border-radius: 15px;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    margin: 2vw;
+
+}
+img{
+    clip-path: circle(40%);
+    max-width: 30vw;
+    height: auto;
+}
+#picture{
+   
+    justify-content: center;
+    background-color: navajowhite;
+    clip-path: circle(23%);
+}
+#pic{
+    display: flex;
+    flex-direction: column;
+    background-color: maroon;
+    border-radius: 15px;
+    margin: 2vw;
+}
